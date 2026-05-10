@@ -1,0 +1,317 @@
+{
+    "numerical_summary": {
+        "Pclass": {
+            "count": 891.0,
+            "mean": 2.308641975308642,
+            "std": 0.836071240977049,
+            "min": 1.0,
+            "25%": 2.0,
+            "50%": 3.0,
+            "75%": 3.0,
+            "max": 3.0
+        },
+        "Age": {
+            "count": 714.0,
+            "mean": 29.69911764705882,
+            "std": 14.526497332334042,
+            "min": 0.42,
+            "25%": 20.125,
+            "50%": 28.0,
+            "75%": 38.0,
+            "max": 80.0
+        },
+        "SibSp": {
+            "count": 891.0,
+            "mean": 0.5230078563411896,
+            "std": 1.1027434322934317,
+            "min": 0.0,
+            "25%": 0.0,
+            "50%": 0.0,
+            "75%": 1.0,
+            "max": 8.0
+        },
+        "Fare": {
+            "count": 891.0,
+            "mean": 32.204207968574636,
+            "std": 49.6934285971809,
+            "min": 0.0,
+            "25%": 7.9104,
+            "50%": 14.4542,
+            "75%": 31.0,
+            "max": 512.3292
+        },
+        "Parch": {
+            "count": 891.0,
+            "mean": 0.38159371492704824,
+            "std": 0.8060572211299483,
+            "min": 0.0,
+            "25%": 0.0,
+            "50%": 0.0,
+            "75%": 0.0,
+            "max": 6.0
+        },
+        "Survived": {
+            "count": 891.0,
+            "mean": 0.3838383838383838,
+            "std": 0.4865924542648575,
+            "min": 0.0,
+            "25%": 0.0,
+            "50%": 0.0,
+            "75%": 1.0,
+            "max": 1.0
+        }
+    },
+    "Whole_summary": {
+        "Pclass": {
+            "count": 891.0,
+            "unique": NaN,
+            "top": NaN,
+            "freq": NaN,
+            "mean": 2.308641975308642,
+            "std": 0.836071240977049,
+            "min": 1.0,
+            "25%": 2.0,
+            "50%": 3.0,
+            "75%": 3.0,
+            "max": 3.0
+        },
+        "Sex": {
+            "count": 891,
+            "unique": 2,
+            "top": "male",
+            "freq": 577,
+            "mean": NaN,
+            "std": NaN,
+            "min": NaN,
+            "25%": NaN,
+            "50%": NaN,
+            "75%": NaN,
+            "max": NaN
+        },
+        "Age": {
+            "count": 714.0,
+            "unique": NaN,
+            "top": NaN,
+            "freq": NaN,
+            "mean": 29.69911764705882,
+            "std": 14.526497332334042,
+            "min": 0.42,
+            "25%": 20.125,
+            "50%": 28.0,
+            "75%": 38.0,
+            "max": 80.0
+        },
+        "SibSp": {
+            "count": 891.0,
+            "unique": NaN,
+            "top": NaN,
+            "freq": NaN,
+            "mean": 0.5230078563411896,
+            "std": 1.1027434322934317,
+            "min": 0.0,
+            "25%": 0.0,
+            "50%": 0.0,
+            "75%": 1.0,
+            "max": 8.0
+        },
+        "Fare": {
+            "count": 891.0,
+            "unique": NaN,
+            "top": NaN,
+            "freq": NaN,
+            "mean": 32.204207968574636,
+            "std": 49.6934285971809,
+            "min": 0.0,
+            "25%": 7.9104,
+            "50%": 14.4542,
+            "75%": 31.0,
+            "max": 512.3292
+        },
+        "Parch": {
+            "count": 891.0,
+            "unique": NaN,
+            "top": NaN,
+            "freq": NaN,
+            "mean": 0.38159371492704824,
+            "std": 0.8060572211299483,
+            "min": 0.0,
+            "25%": 0.0,
+            "50%": 0.0,
+            "75%": 0.0,
+            "max": 6.0
+        },
+        "Cabin": {
+            "count": 204,
+            "unique": 147,
+            "top": "G6",
+            "freq": 4,
+            "mean": NaN,
+            "std": NaN,
+            "min": NaN,
+            "25%": NaN,
+            "50%": NaN,
+            "75%": NaN,
+            "max": NaN
+        },
+        "Embarked": {
+            "count": 889,
+            "unique": 3,
+            "top": "S",
+            "freq": 644,
+            "mean": NaN,
+            "std": NaN,
+            "min": NaN,
+            "25%": NaN,
+            "50%": NaN,
+            "75%": NaN,
+            "max": NaN
+        },
+        "Survived": {
+            "count": 891.0,
+            "unique": NaN,
+            "top": NaN,
+            "freq": NaN,
+            "mean": 0.3838383838383838,
+            "std": 0.4865924542648575,
+            "min": 0.0,
+            "25%": 0.0,
+            "50%": 0.0,
+            "75%": 1.0,
+            "max": 1.0
+        }
+    },
+    "Correlation": {
+        "Pclass": {
+            "Pclass": 1.0,
+            "Age": -0.36922601531551735,
+            "SibSp": 0.08308136284568686,
+            "Fare": -0.5494996199439076,
+            "Parch": 0.018442671310748508,
+            "Survived": -0.3384810359610152
+        },
+        "Age": {
+            "Pclass": -0.36922601531551735,
+            "Age": 1.0,
+            "SibSp": -0.30824675892365666,
+            "Fare": 0.09606669176903912,
+            "Parch": -0.1891192626320352,
+            "Survived": -0.07722109457217759
+        },
+        "SibSp": {
+            "Pclass": 0.08308136284568686,
+            "Age": -0.30824675892365666,
+            "SibSp": 1.0,
+            "Fare": 0.159651043242161,
+            "Parch": 0.41483769862015624,
+            "Survived": -0.03532249888573556
+        },
+        "Fare": {
+            "Pclass": -0.5494996199439076,
+            "Age": 0.09606669176903912,
+            "SibSp": 0.159651043242161,
+            "Fare": 1.0,
+            "Parch": 0.2162249447707645,
+            "Survived": 0.2573065223849626
+        },
+        "Parch": {
+            "Pclass": 0.018442671310748508,
+            "Age": -0.1891192626320352,
+            "SibSp": 0.41483769862015624,
+            "Fare": 0.2162249447707645,
+            "Parch": 1.0,
+            "Survived": 0.08162940708348335
+        },
+        "Survived": {
+            "Pclass": -0.3384810359610152,
+            "Age": -0.07722109457217759,
+            "SibSp": -0.03532249888573556,
+            "Fare": 0.2573065223849626,
+            "Parch": 0.08162940708348335,
+            "Survived": 1.0
+        }
+    },
+    "Plots": [
+        {
+            "filename": "../plots/Age_histogram.png",
+            "type": "histogram",
+            "title": "Age Distribution",
+            "xlabel": "Age",
+            "ylabel": "Frequency"
+        },
+        {
+            "filename": "../plots/Fare_histogram.png",
+            "type": "histogram",
+            "title": "Fare Distribution",
+            "xlabel": "Fare",
+            "ylabel": "Frequency"
+        },
+        {
+            "filename": "../plots/Pclass_bar.png",
+            "type": "bar",
+            "title": "Pclass Count",
+            "xlabel": "Pclass",
+            "ylabel": "Count"
+        },
+        {
+            "filename": "../plots/Sex_bar.png",
+            "type": "bar",
+            "title": "Sex Count",
+            "xlabel": "Sex",
+            "ylabel": "Count"
+        },
+        {
+            "filename": "../plots/SibSp_bar.png",
+            "type": "bar",
+            "title": "SibSp Count",
+            "xlabel": "SibSp",
+            "ylabel": "Count"
+        },
+        {
+            "filename": "../plots/Parch_bar.png",
+            "type": "bar",
+            "title": "Parch Count",
+            "xlabel": "Parch",
+            "ylabel": "Count"
+        },
+        {
+            "filename": "../plots/Cabin_bar.png",
+            "type": "bar",
+            "title": "Cabin Count",
+            "xlabel": "Cabin",
+            "ylabel": "Count"
+        },
+        {
+            "filename": "../plots/Embarked_bar.png",
+            "type": "bar",
+            "title": "Embarked Count",
+            "xlabel": "Embarked",
+            "ylabel": "Count"
+        },
+        {
+            "filename": "../plots/Survived_bar.png",
+            "type": "bar",
+            "title": "Survived Count",
+            "xlabel": "Survived",
+            "ylabel": "Count"
+        },
+        {
+            "filename": "../plots/Age_box.png",
+            "type": "boxplot",
+            "title": "Age vs Survived",
+            "xlabel": "Survived",
+            "ylabel": "Age"
+        },
+        {
+            "filename": "../plots/Fare_box.png",
+            "type": "boxplot",
+            "title": "Fare vs Survived",
+            "xlabel": "Survived",
+            "ylabel": "Fare"
+        },
+        {
+            "filename": "../plots/correlation_heatmap.png",
+            "type": "heatmap",
+            "title": "Correlation Heatmap"
+        }
+    ]
+}
